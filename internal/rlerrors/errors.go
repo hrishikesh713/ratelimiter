@@ -6,4 +6,6 @@ import "errors"
 var (
 	ErrInvalidClientID   = errors.New("invalid client ID")
 	ErrRateLimitExceeded = errors.New("rate limit exceeded")
+	ErrInvalidRateLimit  = errors.New("invalid rate limit")
+	ErrTimeSkewDetected  = errors.New("time skew detected")
 )
